@@ -248,7 +248,7 @@ def new_game(iq1,iq2,print_):
     print(str(time.time() - start)[:6] + " seconds elapsed.")
     return won(board)
 
-for i in range(10):
+for i in range(0):
     print(("DRAW","CPU1 won!","CPU2 won!","DRAW")[3 - new_game(2,2,True)])
     print("[difficulty {} vs {}]".format(2,2) + "\n"*5)
 
