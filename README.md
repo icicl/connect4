@@ -1,4 +1,4 @@
-# connect4
+# connect4™
 An AI connect 4 player
 
 connect4.py is user vs. AI.
